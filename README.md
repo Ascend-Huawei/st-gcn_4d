@@ -14,8 +14,12 @@ While maintaining the same performance and flexibility in both training and infe
 ## **Get Pretrained Model:**
 
 Pretrained model on **Kinetics** dataset: [drive](https://drive.google.com/file/d/1UJy545cxXSraqlBG9tgFungqsHfQOJ37/view?usp=sharing)  
-Pretrained model on **NTU RGB+D** dataset (crossview): [drive](https://drive.google.com/file/d/1P-yXa83pq-iBmqIHQvCzutjztot_ij7i/view?usp=sharing)
+Pretrained model on **NTU RGB+D** dataset (crossview): [drive](https://drive.google.com/file/d/1P-yXa83pq-iBmqIHQvCzutjztot_ij7i/view?usp=sharing) 
 
+## **Get ONNX Model:**
+
+Transfer the pytorch model to ONNX with script `pytorch2onnx.py`  
+ONNX Model for **Kinetics** dataset (batch=1): [drive](https://drive.google.com/file/d/1NF6KvfSNGMp25VAAmGEfW4wnTEB_NZ5-/view?usp=sharing)
 
 
 # **Prerequisites:**
