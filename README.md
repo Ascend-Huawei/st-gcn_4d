@@ -11,6 +11,13 @@ Kindly refer to the below link for the code repository of the paper, which holds
 
 While maintaining the same performance and flexibility in both training and inference, in this repository, we change the original model implementation from `5D` input to `4D` input, and replace the `Einsum` operator with the equivalent `Matmul` operation, enabling the model for more general usage on non-GPU/CPU devices. For example, for Huawei's Ascend AI processor, by the date of this repository, the CANN software stack does not support `5D` or `Einsum` yet. This could apply to other ASIC/FPGA AI processors. Details are provided in the below sections.
 
+## **Get Pretrained Model:**
+
+Pretrained model on **Kinetics** dataset: [drive](https://drive.google.com/file/d/1UJy545cxXSraqlBG9tgFungqsHfQOJ37/view?usp=sharing)  
+Pretrained model on **NTU RGB+D** dataset (crossview): [drive](https://drive.google.com/file/d/1P-yXa83pq-iBmqIHQvCzutjztot_ij7i/view?usp=sharing)
+
+
+
 # **Prerequisites:**
 1)  `Python3`
 2)	[`PyTorch`](https://pytorch.org/)
